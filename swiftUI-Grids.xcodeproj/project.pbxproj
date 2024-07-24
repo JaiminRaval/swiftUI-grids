@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		07BF3C6C2C510C71000281BC /* swiftUI_GridsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BF3C6B2C510C71000281BC /* swiftUI_GridsApp.swift */; };
-		07BF3C6E2C510C71000281BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BF3C6D2C510C71000281BC /* ContentView.swift */; };
 		07BF3C702C510C74000281BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BF3C6F2C510C74000281BC /* Assets.xcassets */; };
 		07BF3C732C510C74000281BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BF3C722C510C74000281BC /* Preview Assets.xcassets */; };
+		07BF3C7A2C510CD6000281BC /* FramworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BF3C792C510CD6000281BC /* FramworkModel.swift */; };
+		07BF3C7C2C510E41000281BC /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BF3C7B2C510E41000281BC /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07BF3C682C510C71000281BC /* swiftUI-Grids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI-Grids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BF3C6B2C510C71000281BC /* swiftUI_GridsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_GridsApp.swift; sourceTree = "<group>"; };
-		07BF3C6D2C510C71000281BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07BF3C6F2C510C74000281BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07BF3C722C510C74000281BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07BF3C792C510CD6000281BC /* FramworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkModel.swift; sourceTree = "<group>"; };
+		07BF3C7B2C510E41000281BC /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		07BF3C6A2C510C71000281BC /* swiftUI-Grids */ = {
 			isa = PBXGroup;
 			children = (
+				07BF3C792C510CD6000281BC /* FramworkModel.swift */,
 				07BF3C6B2C510C71000281BC /* swiftUI_GridsApp.swift */,
-				07BF3C6D2C510C71000281BC /* ContentView.swift */,
+				07BF3C7B2C510E41000281BC /* FrameworkGridView.swift */,
 				07BF3C6F2C510C74000281BC /* Assets.xcassets */,
 				07BF3C712C510C74000281BC /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07BF3C6E2C510C71000281BC /* ContentView.swift in Sources */,
+				07BF3C7C2C510E41000281BC /* FrameworkGridView.swift in Sources */,
+				07BF3C7A2C510CD6000281BC /* FramworkModel.swift in Sources */,
 				07BF3C6C2C510C71000281BC /* swiftUI_GridsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
