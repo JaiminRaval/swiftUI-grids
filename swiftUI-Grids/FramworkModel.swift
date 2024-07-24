@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct Framework: Hashable, Identifiable {
     let id = UUID()
     let name: String
